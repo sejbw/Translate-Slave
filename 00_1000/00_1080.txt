@@ -1,0 +1,33 @@
+[光の勢力と戦争　第四層突入前]00_1080
+
+
+#BGMPLAY,	103,
+
+#FADE,	0,	0,	0,	255,		60
+#WAIT,	60,
+
+//		BGnum	frame
+#BGSET,	6,		0,
+
+
+#FADE,	0,	0,	0,	0,		60
+
+
+#MSGWINDOW_ON,
+
+
+#MSG,
+ラピュセナ出撃
+
+
+#MSGWINDOW_OFF,
+
+#WAIT,	30
+
+#FADE,	0,	0,	0,	255,	60,
+#WAIT,	60,
+
+#EVENTEND,
+
+#END,
+

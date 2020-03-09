@@ -1,0 +1,49 @@
+[光の勢力と戦争　第一層突入後]00_1062
+
+
+#BGMPLAY,	103,
+
+#FADE,	0,	0,	0,	255,		60
+#WAIT,	60,
+
+//		BGnum	frame
+#BGSET,	6,		0,
+
+
+#FADE,	0,	0,	0,	0,		60
+
+
+#MSGWINDOW_ON,
+
+#FADE,	0,	0,	0,	255,		60
+#WAIT,	60,
+
+//		BGnum	frame
+#BGSET,	6,		0,
+
+
+#FADE,	0,	0,	0,	0,		60
+
+
+#MSGWINDOW_ON,
+
+
+#MSG,
+光の都市街地の制圧に成功した。
+
+
+
+
+#WAIT,	30
+
+#FADE,	0,	0,	0,	255,	60,
+#WAIT,	60,
+
+
+//	侵攻戦次戦呼び出し
+#COMBATCALL,
+
+#EVENTEND,
+
+#END,
+
