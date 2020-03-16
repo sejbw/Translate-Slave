@@ -1,4 +1,4 @@
-[�ł̐��͂Ɛ푈�@���w�˓��O]00_2070
+[闇の勢力と戦争　第二層突入前]00_2070
 
 #FADE,	0,	0,	0,	255,		60
 #WAIT,	60,
@@ -37,131 +37,131 @@
 #MSGWINDOW_ON,
 
 #MSG,
-�J���i
-�u�����Ԃ��j���Ă��ꂽ�悤�ˁv
+카루나
+「문을　부순　것　같네」
 
 #WFSET,		6,	3,
 
 #MSG,
-�A���f���r�A
-�u�v���v���f�X�ˁ`�B
-�@��̒N���C������Ǝv���Ă�f�X���ˁI�v
+안델리비아
+「흥흥이에요~。
+　대체　누가　수리한다고　생각하는　걸까요！」
 
 #BUSET2,	4,	0,	0,
 
 #MSG,
-�J���i
-�u�ŋ߃]���r��V�΂������Ă����C�U����点��΁H�v
+카루나
+「최근에　좀비를　너무　놀게　냅뒀으니까　수리를　시키면　어떨까？」
 
 #WFSET,		6,	3,
 
 #MSG,
-�A���f���r�A
-�u�]���r�͂c�d�w���Ⴂ�f�X����ˁI
-�@�C���Ƃ���点����]�v�Ȏ�Ԃ�������f�X��I�v
+안델리비아
+「좀비는　ＤＥＸ가　낮아요！
+　수리같은　거　시키면　불필요한　수고가　늘어난다구요！」
 
 #BUSET2,	4,	2,	0,
 
 #MSG,
-�J���i
-�u���͂́B���������΍ŏ��ɂ��̉Ƃ��C�U��������
-�@�U�X��������ˁv
+카루나
+「아하하。그러고　보니　처음에　이　집을　고쳤을　때는
+　엉망진창이었지」
 
 #WFSET,		6,	3,
 
 #MSG,
-�A���f���r�A
-�u�f�X��`�I�v
+안델리비아
+「그렇다구요~！」
 
 #BUSET2,	4,	0,	0,
 
 #MSG,
-�J���i
-�u�d���Ȃ���ˁB
-�@�A����Еt������ꏏ�ɏC�����܂��傤���v
+카루나
+「어쩔　수　없지。
+　녀석들을　정리하고　같이　수리할까」
 
 #BUSET2,	6,	41,	2,
 
 #MSG,
-�A���f���r�A
-�u���`�A�����f�X�ˁI
-�@����������l�̋�����ƃf�X�I�v
+안델리비아
+「오~、좋지요！
+　서로　사랑하는　두　사람의　공동　작업이에요！」
 
 #BUSET2,	6,	0,	2,
 
 #MSG,
-�A���f���r�A
-�u�ł��J���i�����ɏd�J��������̂͋C���Ђ���f�X�ˁv
+안델리비아
+「그치만　카루나한테　중노동을　시키는　건　좀　꺼림칙하네요」
 
 #WFSET,	4,	0,
 
 #MSG,
-�J���i
-�u����A���肵�ɍs���́H�v
+카루나
+「어머、상대하러　가는　거야？」
 
 #BUSET2,	6,	1,	2,
 
 #MSG,
-�A���f���r�A
-�u���Ԃ񎄂��Ꮯ�ĂȂ��Ǝv���f�X���ǁA
-�@����������Ղ����Ă��f�X��v
+안델리비아
+「아마　나로선　이길　수　없다고　생각하지만、
+　확실히　소모시켜　줄게요」
 
 #BUSET2,	4,	2,	0,
 
 #MSG,
-�J���i
-�u�����B
-�@���Ⴀ���肢�ˁv
+카루나
+「그래。
+　그럼　부탁할게」
 
 #BUSET2,	6,	41,	2,
 
 #MSG,
-�A���f���r�A
-�u���C���f�`�X�I�v
+안델리비아
+「맡겨줘요~！」
 
 #BUSET2,	4,	0,	0,
 
 #MSG,
-�J���i
-�u�A���v
+카루나
+「안」
 
 #BUSET2,	6,	0,	2,
 
 #MSG,
-�A���f���r�A
-�u�͂��f�X�H�v
+안델리비아
+「네？」
 
 #WFOUT,
 
 #SEPLAY,	707,
 
 #MSG,
-�����
+쪽
 
 #BUSET,		6,	2,	2,
 #BUSET2,	4,	5,	0,
 
 #MSG,
-�J���i
-�u�i�C�Â��v
+카루나
+「힘내」
 
 #BUSET2,	6,	1,	2,
 
 #MSG,
-�A���f���r�A
-�u�ӂӁ`�A�J���i����񂽂�`�v
+안델리비아
+「후후~、카루나도　참~」
 
 #BUSET2,	6,	41,	2,
 
 #MSG,
-�A���f���r�A
-�u�ł��A���������܂Ō��C�S�{�A���f���r�A�����f�X�I�I�v
+안델리비아
+「그치만、덕분에　원기백배에요！！」
 
 #BUSET2,	6,	40,	2,
 
 #MSG,
-�A���f���r�A
-�u���Ⴀ�s���Ă���f�X�`�v
+안델리비아
+「그럼、갔다올게요~」
 
 
 #MSGCLEAR,
@@ -177,19 +177,19 @@
 #BUSET2,	4,	2,	1,
 
 #MSG,
-�J���i
-�u�[�т܂łɂ͋A���ė��Ȃ�����v
+카루나
+「저녁때까진　돌아오렴」
 
 
 #BUSET2,	4,	0,	1,
 
 #MSG,
-�J���i
-�u���ĂƁB
-�@�[�т̗p�ӂł����悤������v
+카루나
+「자、그럼。
+　저녁　준비나　해　볼까」
 
 
-//	�N�U�펟��Ăяo��
+//	侵攻戦次戦呼び出し
 #COMBATCALL,
 
 #MSGWINDOW_OFF,
