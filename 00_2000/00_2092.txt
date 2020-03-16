@@ -1,0 +1,37 @@
+[闇の勢力と戦争　第三層突入後]00_2092
+
+
+#BGMPLAY,	103,
+
+#FADE,	0,	0,	0,	255,		60
+#WAIT,	60,
+
+//		BGnum	frame
+#BGSET,	9,		0,
+
+
+#FADE,	0,	0,	0,	0,		60
+
+
+#MSGWINDOW_ON,
+
+
+#MSG,
+この場を制圧する事に成功した。
+
+
+
+
+#MSGWINDOW_OFF,
+
+//	侵攻戦次戦呼び出し
+#COMBATCALL,
+
+#WAIT,	30
+
+#FADE,	0,	0,	0,	255,	60,
+#WAIT,	60,
+
+#EVENTEND,
+
+#END,
