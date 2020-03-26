@@ -1,0 +1,130 @@
+[真に正しい性奴隷の使い方]03_3000
+
+//		r,	g,	b,	a,		frame
+#FADE,	0,	0,	0,	255,	0
+#WAIT,	60,
+
+#FADE,	0,	0,	0,	0,		60
+
+//		BGnum	frame
+#BGSET,	84,		0
+
+
+#BGMPLAY,	356,
+
+#MSGWINDOW_OFF,
+
+
+
+#WAIT,	30,
+
+
+//	長かった…
+#CG,	93,	0,	60,
+#VOICE,	Ande9000_0000,
+#WAIT,	60,
+#KEYWAIT,
+#CGOUT,	60,
+#WAIT,	60,
+//	だけど、私はようやく
+#CG,	93,	1,	60,
+#VOICE,	Ande9000_0001,
+#WAIT,	60,
+#KEYWAIT,
+#CGOUT,	60,
+#WAIT,	60,
+
+#BGMSTOP,	480,
+
+//	みんな……ありがとう。
+#CG,	93,	2,	60,
+#VOICE,	Ande9000_0002,
+#WAIT,	60,
+#KEYWAIT,
+#CGOUT,	60,
+#WAIT,	60,
+
+//	残酷な物語を
+#CG,	93,	3,	60,
+#VOICE,	Ande9000_0003,
+#WAIT,	60,
+#KEYWAIT,
+#CGOUT,	60,
+#WAIT,	60,
+
+//	もう一度だけ、みんなの力を
+#CG,	93,	4,	60,
+#VOICE,	Ande9000_0004,
+#WAIT,	60,
+#KEYWAIT,
+#CGOUT,	60,
+#WAIT,	25,
+
+#BGMSTOP,	0,
+#WAIT,		5,
+#BGMPLAY,	610,
+
+#WAIT,	30,
+#WAIT,	60,
+
+//	『座』から見ているか、『世界』！？
+#CG,	93,	5,	60,
+#VOICE,	Ande9000_0005,
+#WAIT,	60,
+#KEYWAIT,
+#CGOUT,	60,
+#WAIT,	60,
+
+//	私だけが知る
+#CG,	93,	6,	60,
+#VOICE,	Ande9000_0006,
+#WAIT,	60,
+#KEYWAIT,
+#CGOUT,	60,
+#WAIT,	60,
+
+#FADE,	0,0,0,  0,0
+
+//-----------------------------------------------------------
+//	回想でなければ
+#FLAGCHECK,	20, =, 0,	4,
+{
+
+//
+#ALLCARE,
+#ALLREPAIR,
+#MANAHEAL,
+
+//	総力戦
+#FULLPARTY
+//	ラストバトルフラグ
+#ADDLASTBATTLE,
+#ADDFALSEBATTLE,
+
+
+//			敵番号	BGM		BG,	開幕音声,	開幕演出,	勝利イベント	敗北イベント
+#BATTLE,	8000,	610,	96,	0,			0,			3,3100,			0,	-1,
+
+}
+
+#MSGWINDOW_OFF,
+
+
+//-----------------------------------------------------------
+//	回想の場合
+#FLAGCHECK,	20, =, 1,	4,
+{
+
+#BGMSTOP,	90,
+
+}
+
+#WAIT,	30
+
+#FADE,	0,	0,	0,	255,	60,
+#WAIT,	60,
+
+#EVENTEND,
+
+#END,
+

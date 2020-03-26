@@ -1,0 +1,37 @@
+[トゥルーエンド]03_5010
+
+#MSGWINDOW_OFF,
+
+//		r,	g,	b,	a,	frame
+#FADE,	0,	0,	0,255,	0
+#WAIT,	60,
+
+//		BGnum	frame
+#BGSET,	83,		0
+
+//		r,	g,	b,	a,	frame
+#FADE,	0,	0,	0,	0,	60
+
+#BGMPLAY,	356,
+
+#WAIT,	30,
+
+//	
+#CG,	99,	2,	60,
+#WAIT,	60,
+#KEYWAIT,
+#CGOUT,	60,
+#WAIT,	60,
+
+
+
+#WAIT,	30
+
+#FADE,	0,	0,	0,	  0,	 0,
+#FADE,	0,	0,	0,	255,	60,
+#WAIT,	60,
+
+#GAMEOVER,
+
+#END,
+

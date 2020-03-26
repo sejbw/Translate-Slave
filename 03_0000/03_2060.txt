@@ -1,0 +1,58 @@
+[襲撃者戦]03_2060
+
+//		r,	g,	b,	a,		frame
+#FADE,	0,	0,	0,255,	0
+#WAIT,	60,
+
+//		BGnum	frame
+#BGSET,	95,		0
+
+#FADE,	0,	0,	0,	0,		60
+
+#BGMPLAY,	602,
+
+#WAIT,	30,
+
+
+
+#SEPLAY,	60,
+
+#FADE,	255,255,255,  0,  0
+#FADE,	255,255,255,255,30
+#WAIT,	30,
+
+#WFOUT,
+#MSGCLEAR,
+
+#BUOUT,	1,
+
+#WAIT,	30,
+
+#FADE,	255,255,255,  0,30
+#WAIT,	30,
+
+#MSGWINDOW_ON,
+
+#MSG,
+襲撃者は跡形も無く消滅した。
+
+#MSG,
+何とか撃退することに成功したようだ。
+
+
+#EVENTREWORD,
+
+
+//	終了処理
+#MSGWINDOW_OFF,
+
+#WAIT,	30
+
+#FADE,	0,	0,	0,	  0,	 0,
+#FADE,	0,	0,	0,	255,	60,
+#WAIT,	60,
+
+#EVENTEND,
+
+#END,
+
